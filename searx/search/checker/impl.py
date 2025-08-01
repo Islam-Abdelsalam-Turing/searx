@@ -33,7 +33,7 @@ HTML_TAGS = [
 
 
 def get_check_no_html():
-    rep = ['<' + tag + '[^\>]*>' for tag in HTML_TAGS]
+    rep = ['<' + tag + r'[^\>]*>' for tag in HTML_TAGS]
     rep += ['</' + tag + '>' for tag in HTML_TAGS]
     pattern = re.compile('|'.join(rep))
 

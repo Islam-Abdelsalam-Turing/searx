@@ -12,7 +12,7 @@ from searx import searx_dir
 URL = 'https://ftp.mozilla.org/pub/firefox/releases/'
 RELEASE_PATH = '/pub/firefox/releases/'
 
-NORMAL_REGEX = re.compile('^[0-9]+\.[0-9](\.[0-9])?$')
+NORMAL_REGEX = re.compile(r'^[0-9]+\.[0-9](\.[0-9])?$')
 # BETA_REGEX = re.compile('.*[0-9]b([0-9\-a-z]+)$')
 # ESR_REGEX = re.compile('^[0-9]+\.[0-9](\.[0-9])?esr$')
 

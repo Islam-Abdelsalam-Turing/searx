@@ -20,10 +20,10 @@ mime_types_map = {
     'videos': 'video*'
 }
 
-time_range_map = {'day': '[ now-24h\/h TO *]',
-                  'week': '[ now\/h-7d TO *]',
-                  'month': '[ now\/d-30d TO *]',
-                  'year': '[ now\/d-1y TO *]'}
+time_range_map = {'day': r'[ now-24h\/h TO *]',
+                  'week': r'[ now\/h-7d TO *]',
+                  'month': r'[ now\/d-30d TO *]',
+                  'year': r'[ now\/d-1y TO *]'}
 
 ipfs_url = 'https://gateway.ipfs.io/ipfs/{hash}'
 
